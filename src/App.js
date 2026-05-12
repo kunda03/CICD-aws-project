@@ -23,6 +23,8 @@ function App() {
         <p style={{ marginTop: '20px', fontSize: '18px' }}>
           Happy Learning DevOps & React 🚀
         </p>
+
+        <h1>CI/CD Working Automatically 🚀</h1>
       </header>
     </div>
   );
