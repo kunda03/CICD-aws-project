@@ -1,22 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>🚀 Welcome to CI/CD Pipeline</h1>
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This React application is successfully deployed using a CI/CD workflow.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <div style={{ marginTop: '20px' }}>
+          <h3>Pipeline Stages</h3>
+          <ul style={{ listStyle: 'none', padding: 0 }}>
+            <li>✅ Code Build</li>
+            <li>✅ Automated Testing</li>
+            <li>✅ Continuous Integration</li>
+            <li>✅ Continuous Deployment</li>
+          </ul>
+        </div>
+
+        <p style={{ marginTop: '20px', fontSize: '18px' }}>
+          Happy Learning DevOps & React 🚀
+        </p>
       </header>
     </div>
   );
